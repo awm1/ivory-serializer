@@ -161,4 +161,13 @@ class TypeMetadata implements TypeMetadataInterface
 
         return $name.'<'.implode(', ', $options).'>';
     }
+
+	public function __serialize() {
+		return $this->serialize();
+	}
+
+	public function __unserialize($serialized) {
+		return $this->unserialize($serialized);
+	}
+
 }
