@@ -186,4 +186,13 @@ class ClassMetadata implements ClassMetadataInterface
             $this->xmlRoot
         ) = unserialize($serialized);
     }
+
+	public function __serialize() {
+		return $this->serialize();
+	}
+
+	public function __unserialize($serialized) {
+		return $this->unserialize($serialized);
+	}
+
 }
