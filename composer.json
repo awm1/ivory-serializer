@@ -1,5 +1,5 @@
 {
-    "name": "ivory/serializer",
+    "name": "egeloen/serializer",
     "description": "Serializer for PHP 7.0+ supporting JSON, XML, YAML & CSV",
     "keywords": [ "serializer" ],
     "license": "MIT",
@@ -19,7 +19,7 @@
         "php": ">=7.0",
         "doctrine/instantiator": "^1.0",
         "doctrine/lexer": "^1.0",
-        "symfony/options-resolver": "^4.3 || ^5.0"
+        "symfony/options-resolver": "^4.3 || ^5.0 || ^6.0"
     },
     "require-dev": {
         "doctrine/annotations": "^1.2 || ^1.3",
